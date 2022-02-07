@@ -17,7 +17,6 @@ gradleEnterprise {
     buildScan {
         captureTaskInputFiles = true
         publishAlways()
-        publishIfAuthenticated()
 
         uploadInBackground = !settings.ext.isCiEnvironment
 
