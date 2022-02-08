@@ -299,14 +299,14 @@ sourceSets {
 					include '**/*.xml'
 				}
 			}
-			configure( srcDir('src/test/resources') ) {
-				filter {
-					include '*.properties'
-					include '*.xml'
-					include '**/*.properties'
-					include '**/*.xml'
-				}
-			}
+//			configure( srcDir('src/test/resources') ) {
+//				filter {
+//					include '*.properties'
+//					include '*.xml'
+//					include '**/*.properties'
+//					include '**/*.xml'
+//				}
+//			}
 		}
 	}
 }
